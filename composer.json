@@ -1,0 +1,31 @@
+{
+    "name": "agenciafmd/admix-utils",
+    "description": "Funções úteis no dia a dia.",
+    "license": "MIT",
+    "homepage": "https://github.com/agenciafmd/admix-utils",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tarsísio Xavier",
+            "email": "tarsisio@fmd.ag",
+            "homepage": "https://fmd.ag/",
+            "role": "developer"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Agenciafmd\\Admix\\Utils\\": "src/",
+            "Agenciafmd\\Admix\\Utils\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Agenciafmd\\Admix\\Utils\\Providers\\AdmixUtilsServiceProvider"
+            ]
+        }
+    }
+}
