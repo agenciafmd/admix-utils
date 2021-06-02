@@ -14,12 +14,19 @@ class AdmixUtilsServiceProvider extends ServiceProvider
 {
     public function boot()
     {
+        $this->loadTranslations();
+
         $this->loadMacros();
     }
 
     public function register()
     {
         // 
+    }
+
+    private function loadTranslations()
+    {
+        $this->loadTranslationsFrom(__DIR__ . '/../../resources/lang', 'agenciafmd/utils');
     }
 
     private function loadMacros()
