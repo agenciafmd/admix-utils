@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Agenciafmd\\Admix\\Utils\\Providers\\AdmixUtilsServiceProvider"
+                "Agenciafmd\\Admix\\Providers\\AdmixUtilsServiceProvider"
             ]
         }
     }
