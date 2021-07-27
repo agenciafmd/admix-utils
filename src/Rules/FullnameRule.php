@@ -1,6 +1,6 @@
 <?php
 
-namespace Agenciafmd\Admix\Utils\Rules;
+namespace Agenciafmd\Admix\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Support\Str;

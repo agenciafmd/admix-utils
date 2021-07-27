@@ -1,6 +1,6 @@
 <?php
 
-namespace Agenciafmd\Admix\Utils\Support\Helpers\Contracts;
+namespace Agenciafmd\Admix\Support\Helpers\Contracts;
 
 use RuntimeException;
 

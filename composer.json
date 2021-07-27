@@ -17,8 +17,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Agenciafmd\\Admix\\Utils\\": "src/",
-            "Agenciafmd\\Admix\\Utils\\Test\\": "tests/"
+            "Agenciafmd\\Admix\\": "src/",
+            "Agenciafmd\\Admix\\Test\\": "tests/"
         },
         "files": [
             "src/helpers.php"

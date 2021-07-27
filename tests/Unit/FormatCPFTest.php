@@ -1,8 +1,8 @@
 <?php
 
-namespace Agenciafmd\Admix\Utils\Test\Unit;
+namespace Agenciafmd\Admix\Test\Unit;
 
-use Agenciafmd\Admix\Utils\Test\TestCase;
+use Agenciafmd\Admix\Test\TestCase;
 use Illuminate\Support\Str;
 
 class FormatCPFTest extends TestCase

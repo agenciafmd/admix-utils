@@ -1,12 +1,12 @@
 <?php
 
-namespace Agenciafmd\Admix\Utils\Providers;
+namespace Agenciafmd\Admix\Providers;
 
-use Agenciafmd\Admix\Utils\Support\Helpers\FormatCPF;
-use Agenciafmd\Admix\Utils\Support\Helpers\FormatRG;
-use Agenciafmd\Admix\Utils\Support\Helpers\IsFullname;
-use Agenciafmd\Admix\Utils\Support\Helpers\OnlyNumbers;
-use Agenciafmd\Admix\Utils\Support\Helpers\RemoveAccents;
+use Agenciafmd\Admix\Support\Helpers\FormatCPF;
+use Agenciafmd\Admix\Support\Helpers\FormatRG;
+use Agenciafmd\Admix\Support\Helpers\IsFullname;
+use Agenciafmd\Admix\Support\Helpers\OnlyNumbers;
+use Agenciafmd\Admix\Support\Helpers\RemoveAccents;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 

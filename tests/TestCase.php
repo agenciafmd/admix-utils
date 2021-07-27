@@ -1,8 +1,8 @@
 <?php
 
-namespace Agenciafmd\Admix\Utils\Test;
+namespace Agenciafmd\Admix\Test;
 
-use Agenciafmd\Admix\Utils\Providers\AdmixUtilsServiceProvider;
+use Agenciafmd\Admix\Providers\AdmixUtilsServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase

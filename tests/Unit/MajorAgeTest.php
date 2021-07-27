@@ -1,9 +1,9 @@
 <?php
 
-namespace Agenciafmd\Admix\Utils\Test\Unit;
+namespace Agenciafmd\Admix\Test\Unit;
 
-use Agenciafmd\Admix\Utils\Rules\MajorAgeRule;
-use Agenciafmd\Admix\Utils\Test\TestCase;
+use Agenciafmd\Admix\Rules\MajorAgeRule;
+use Agenciafmd\Admix\Test\TestCase;
 use Faker\Factory as FakerFactory;
 use Illuminate\Support\Facades\Validator;
 

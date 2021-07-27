@@ -1,8 +1,8 @@
 <?php
 
-namespace Agenciafmd\Admix\Utils\Support\Helpers;
+namespace Agenciafmd\Admix\Support\Helpers;
 
-use Agenciafmd\Admix\Utils\Support\Helpers\Contracts\AbstractMacro;
+use Agenciafmd\Admix\Support\Helpers\Contracts\AbstractMacro;
 
 class IsFullname extends AbstractMacro
 {
