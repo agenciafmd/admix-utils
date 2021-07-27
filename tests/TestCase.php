@@ -1,6 +1,6 @@
 <?php
 
-namespace Agenciafmd\Admix\Test;
+namespace Tests;
 
 use Agenciafmd\Admix\Providers\AdmixUtilsServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;

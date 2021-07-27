@@ -17,12 +17,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Agenciafmd\\Admix\\": "src/",
-            "Agenciafmd\\Admix\\Test\\": "tests/"
+            "Agenciafmd\\Admix\\": "src/"
         },
         "files": [
             "src/helpers.php"
         ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     },
     "extra": {
         "laravel": {

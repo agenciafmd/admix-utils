@@ -1,9 +1,9 @@
 <?php
 
-namespace Agenciafmd\Admix\Test\Unit;
+namespace Tests\Unit;
 
 use Agenciafmd\Admix\Rules\FullnameRule;
-use Agenciafmd\Admix\Test\TestCase;
+use Tests\TestCase;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
 
